@@ -1,0 +1,134 @@
+* {padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+html{
+    color: rgb(47, 21, 21);
+    font-family: 'Josefin Sans';
+    line-height: 1.5;
+}
+body{
+    padding: 3rem 3.5rem;
+    background: linear-gradient(#cbe7e8, #dedff0);
+
+}
+h1{
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+ h2{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    border-top: 2px solid lightgreen;
+    border-bottom: 2px solid lightgreen;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+h3{
+    font-size: 1;
+    text-transform: uppercase;
+    color: salmon;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+p{
+    line-height: 1.5;
+}
+section+section{
+    margin-top: 2rem;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.profile img{
+    border-radius: 50%;
+    width: 15rem;
+    height: 15rem;
+}
+.profile{
+    text-align: center;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin: 1rem;
+}
+.profile  p{
+    color: gray;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    font-size: 1.25rem;
+}
+.contact ul
+{
+    text-align: -2rem;
+}
+.contact li{
+    text-align: left;
+    text-transform: uppercase;
+    padding: 1rem;
+   /* border-top: 1px solid lightgreen;*/
+
+    border-bottom: 1px solid lightgreen;
+    color: #888;
+ 
+
+}
+/* li+li {
+    margin-top: 1rem;
+} */
+li{
+    list-style: none;
+}
+.profess{
+    display:inline-block;
+ 
+}
+.personal{
+    display: inline-block;
+}
+/* .column
+{
+    display: inline-block;
+}
+.column1
+{
+    display: inline-block;
+} */
+/* .flexe
+{
+    display: flex;
+    flex-direction:row;
+ 
+} */
+
+
+.event{
+    display: grid;
+    grid-template-columns: 6ch 1fr;
+}
+.content
+{
+    border-left: 1px solid #888;
+    padding-left: 1rem;
+    margin-left: 1rem;
+     
+}
+.event+.event{
+    padding-top: 1rem;
+
+}
+
+.content>h4{
+    margin-bottom: 1rem;
+}
+.resume{
+    display: grid;
+    grid-template-columns: 40% 1fr;
+    grid-gap: 10rem;
+    background-color: aliceblue;
+    max-width: 1000px;
+    margin: auto;
+}
